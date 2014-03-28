@@ -1,7 +1,7 @@
 Anon Be Gone
 =========
 
-Add this before that < /head> tag
+Add this before the < /head> tag
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
@@ -44,7 +44,7 @@ html, body { margin: 0; padding: 0; }
 </script>
 </head>
 <body>
-    <iframe width="100%" height="190" scrolling="no" frameborder="0" src="http://www.tumblr.com/ask_form/YOUR_URL.tumblr.com" id="not_abg"></iframe>
+    <iframe width="500px" height="190" scrolling="no" frameborder="0" src="http://www.tumblr.com/ask_form/YOUR_URL.tumblr.com" id="not_abg"></iframe>
   <div id="abg_box">
       <div id="inner">
         <iframe height="190" scrolling="no" frameborder="0" src="http://www.tumblr.com/ask_form/YOUR_URL.tumblr.com"></iframe>
