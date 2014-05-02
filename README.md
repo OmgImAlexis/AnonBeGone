@@ -12,7 +12,7 @@ Add this before the ```</head>``` tag
 <script type="text/javascript">
 $(document).ready(function() {
   var ask_box = $('iframe#ask_form');
-  ask_box.attr('src', 'https://googledrive.com/host/0BweSwiVcpvLUdGZWOE9mSzVBN28');
+  ask_box.attr('src', 'http://omgimalexis.github.io/AnonBeGone/');
 });
 </script>
 {/block:IfAnonBeGone}
@@ -27,7 +27,7 @@ If you want people to be forced to login to use your ask use this code instead.
       {block:IfAnonBeGone}
       $(document).ready(function() {
         var ask_box = $('iframe#ask_form');
-        ask_box.attr('src', 'https://googledrive.com/host/0BweSwiVcpvLUdGZWOE9mSzVBN28');
+        ask_box.attr('src', 'http://omgimalexis.github.io/AnonBeGone/');
       });
       {/block:IfAnonBeGone}
     }
