@@ -10,10 +10,7 @@ Add this before the < /head> tag
 <script type="text/javascript">
 $(document).ready(function() {
   var ask_box = $('iframe#ask_form');
-  var background_color = 'white';
-  var current_ask_box_src = ask_box.attr('src');
-  var tumblr_url = current_ask_box_src.replace('http://www.tumblr.com/ask_form/', '');
-  ask_box.attr('src', '/anon');
+  ask_box.attr('src', 'https://googledrive.com/host/0BweSwiVcpvLUdGZWOE9mSzVBN28');
 });
 </script>
 {/block:IfAnonBeGone}
@@ -28,10 +25,7 @@ If you want people to be forced to login to use your ask use this code instead.
       {block:IfAnonBeGone}
       $(document).ready(function() {
         var ask_box = $('iframe#ask_form');
-        var background_color = 'white';
-        var current_ask_box_src = ask_box.attr('src');
-        var tumblr_url = current_ask_box_src.replace('http://www.tumblr.com/ask_form/', '');
-        ask_box.attr('src', '/anon');
+        ask_box.attr('src', 'https://googledrive.com/host/0BweSwiVcpvLUdGZWOE9mSzVBN28');
       });
       {/block:IfAnonBeGone}
     }
