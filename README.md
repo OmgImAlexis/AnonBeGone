@@ -6,7 +6,7 @@ The new update doesn't require the /anon page and should work will all blogs.
 
 Add this before the ```</head>``` tag
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
+<script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
 <meta name="if:AnonBeGone" content="0" />
 {block:IfAnonBeGone}
 <script type="text/javascript">
@@ -20,7 +20,7 @@ $(document).ready(function() {
 <br>
 If you want people to be forced to login to use your ask use this code instead.
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
+<script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
 <meta name="if:AnonBeGone" content="0" />
 <script type="text/javascript">
     var is_logged_in = function(){
