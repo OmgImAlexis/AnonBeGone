@@ -1,10 +1,10 @@
 Anon Be Gone
 =========
 
-This will force all anons to show their username instead of ```"Anonymous"```<br>
+This will force all anons to show their username instead of `"Anonymous"`<br>
 The new update doesn't require the /anon page and should work will all blogs.
 
-Add this before the ```</head>``` tag
+Add this before the `</head>` tag.
 ```html
 <script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
 <meta name="if:AnonBeGone" content="0" />
@@ -17,7 +17,7 @@ $(document).ready(function() {
 </script>
 {/block:IfAnonBeGone}
 ```
-<br>
+
 If you want people to be forced to login to use your ask use this code instead.
 ```html
 <script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-2.0.3.min.js">\x3C/script>')</script>
